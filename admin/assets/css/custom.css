@@ -1,0 +1,293 @@
+.header{
+    background-image: url("../images/library.jpg");
+    color: rgb(255, 255, 255);
+    height: 700px;
+}
+.top_header{
+    font-size: 150%;
+    color: inherit
+}
+.top_header:hover{
+    color: inherit;
+    text-decoration: none;
+}
+.margin_top_30px{
+    margin-top: 30px
+}
+.transparent_button{
+    background-color: Transparent;
+    border-color: Transparent;
+}
+
+/*Everything associated with the animation of the homw page's search bar based on a click*/
+.search_bar{
+    width: 0px;
+    overflow: hidden;
+    transition: width .5s;
+}
+.checkbox_to_be_clicked:checked~.row>.search_bar{
+    width: 100%;
+}
+.checkbox_to_be_clicked{
+    display: none;
+}
+/**********************************************************************************************/
+
+.search_submit_button{
+    background: none;
+    border: hidden;
+    color: inherit;
+    font-size: 100%;
+    text-align: left;
+    margin-left: -20px;
+    /* margin-top: 5px */
+}
+.search_input_feild{
+    height: inherit;
+    width: 100%
+}
+.the_checkbox_label{
+    float: right;
+    align-self: right;
+    text-align: right
+}
+.homepage_search_form{
+    width : 100%;
+    /* height : 50px; */
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(184, 181, 181);
+}
+.homepage_search_form > input[type="text"]{
+    width : 95%;
+    height : 80px;
+    background: none;
+    border: none;
+    font-size: 120%;
+}
+.homepage_search_form > button{
+    color: black;
+    font-size: 250%;
+}
+.margin_top_15p{
+    margin-top: 15%;
+}
+.caplet{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 300px;
+    background-color: #26a3c4;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.caplet_number{
+    height: 80%;
+    font-size: 600%;
+    border-bottom: 1px solid #ccc;
+    color: white;
+}
+.caplet_tag{
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+.caplet>a:hover{
+    text-decoration: none;
+}
+.footer{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    
+}
+.dept_specific_books_head{
+    padding: 30px;
+    width: 100%;
+}
+.dept_specific_books_head>div{
+    background-color: rgba(0, 123, 255, 0.25);
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    font-size: 150%;
+    font-weight: bold;
+    color: #fff;
+}
+.dept_specific_books_body{
+    min-height: 700px;
+    width: 100%;
+}
+.book_data_row{
+    background-color: #fff;
+    /* border-color: #80bdff; */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.356);
+    width: 100%;
+    margin-bottom: 15px;
+
+    padding: 2rem 1rem;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.book_page_links{
+    text-decoration: none;
+    color: inherit;
+}
+.book_page_links:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.book_page_links:active{
+    text-decoration: none;
+    color: inherit;
+}
+.whole_body{
+    margin-top: 150px;
+}
+.header2{
+    padding: 25px 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(158, 205, 255);
+}
+.to_index_page{
+    text-decoration: none;
+    color: inherit;
+}
+.to_index_page:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.book_page_body{
+    text-align: center;
+}
+.book_page_body > span{
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 150%;
+}
+.suggested_book_box{
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.356);
+    margin: 15px 15px;
+    display: inline-block;
+    height: 10rem;
+    width: 10rem;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+.suggested_book_box > div{
+    height: 50%;
+    vertical-align: middle;
+    padding: 20px 0 0 0;
+}
+.whole_div{
+    text-align: center;
+}
+.search_query_list{
+    background-color: #fff;
+    /* border-color: #80bdff; */
+    /* box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.356); */
+    width: 100%;
+    margin-bottom: 15px;
+
+    padding: 2rem 1rem;
+    background-clip: padding-box;
+    /* border: 1px solid #ced4da; */
+    border-radius: 0.25rem;
+}
+.top_navbar_navigations{
+    color: #fff;
+    height: inherit;
+    width: inherit;
+    padding: 13px 50px;
+}
+.top_navbar_navigations:hover{
+    background-color: #fff;
+    color: #80bdff;
+    text-decoration: none;
+}
+.books_option{
+    height: 40px;
+    margin-top: 20px
+}
+.books_option>div{
+    vertical-align: middle; 
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.books_option a{ 
+    font-size: 120%;
+    font-family: inherit;
+    color: #fff;
+    height: inherit;
+    width: inherit;
+}
+.books_option a:hover{
+    text-decoration: none;
+}
+.books_option>.delete{
+    background-color: #830b00;
+}
+.books_option>.been_borrowed{
+    background-color: #9a4a14;
+}
+.books_option>.details{
+    background-color: #138600;
+}
+.books_option>.not_been_borrowed{
+    background-color: #948c20;
+}
+.add_books_form{
+    width: 100%;
+    /* display: block; */
+    margin-bottom: 200px
+}
+.custom_input_control{
+    width: 100%;
+    padding: 1.5em;
+    /* display: block; */
+    font-size: 150%;
+    margin-top: 10px;
+    padding-left: 1.0em;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.margin_top_5p{
+    margin-top: 5%;
+}
+.login_form{
+    display: block;
+    width: 30%;
+    margin: 200px auto ;
+    background-color: #eaedf0;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.login_form>input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(0, 29, 71);
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+    
+}
+
+.login_form>div{
+    display: block;
+    margin: 50px auto
+}
